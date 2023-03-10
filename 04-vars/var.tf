@@ -50,5 +50,5 @@ output "types" {
     
     value = "variable sample5 ${var.sample5}, First value in the list ${var.sample6[0]}, Boolean value of the MAP ${var.sample7["boolean"]} "
 }    
-    aw
+    
     
