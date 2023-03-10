@@ -16,3 +16,4 @@ output "printing_the_sample1_variable" {
 variable "cli" {}
 output "printing_the_CLI_variable" {
     value= var.cli
+    }
