@@ -3,5 +3,5 @@ output "sample" {
 }
 
 output "instance_IP_address" {
-    value= aws_instance.server.private_ip
+    value= aws_instance.ec2.private_ip
 }
