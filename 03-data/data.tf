@@ -1,4 +1,4 @@
-data "aws_ami" "ami2" {
+data "aws_ami" "ami" {
 
   most_recent      = true
   name_regex       = "Centos-8-DevOps-Practice"
