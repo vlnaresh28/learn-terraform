@@ -12,3 +12,7 @@ variable "sample1"{}
 output "printing_the_sample1_variable" {
     value= var.sample1
 }
+
+variable "cli" {}
+output "printing_the_CLI_variable" {
+    value= var.cli
