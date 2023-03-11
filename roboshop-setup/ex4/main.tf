@@ -6,9 +6,6 @@ module "ec2" {
 
 }
 
-
-
-
 variable "instances" {
   default = {
     catalogue = {
