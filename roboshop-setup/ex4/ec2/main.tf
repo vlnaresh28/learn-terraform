@@ -8,7 +8,7 @@ data "aws_ami" "ami" {
 resource "aws_instance" "ec2" {
   ami                    = data.aws_ami.ami.image_id
   instance_type          = var.instance_type
-  vpc_security_group_ids = ["sg-0d0c823795db46c70fg"]
+  vpc_security_group_ids = [var.sg_id]
   tags = {
     Name = var.component
   }
@@ -24,4 +24,4 @@ resource "aws_route53_record" "record" {
 
 variable "component" {}
 variable "instance_type" {}
-#variable "sg_id" {}
+variable "sg_id" {}
